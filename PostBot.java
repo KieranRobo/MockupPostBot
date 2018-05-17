@@ -52,7 +52,6 @@ public class PostBot {
         data.add(new String[]{"submit", ""});
         data.add(new String[]{"first_name", firstName});
         data.add(new String[]{"second_name", secondName});
-        data.add(new String[]{"g-recaptcha-response", "CAPTCHA"});
 
         try {
             System.out.println("Attempting to solve captcha. Please wait...");
